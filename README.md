@@ -6,7 +6,7 @@ TcpZoo is a utility that allows you to simulate various TCP errors for testing a
 
 1. Start the container
    ```
-   docker run --rm -it --name tcpzoo --cap-add NET_ADMIN tcpzoo:latest
+   docker run --rm -it --name tcpzoo --cap-add NET_ADMIN zhangjianao/tcpzoo:latest
    ```
 
    After the container starts, it will output the ports it is listening on.
